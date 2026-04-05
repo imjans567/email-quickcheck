@@ -172,10 +172,6 @@ requirements.txt # Dependencies
 
 ---
 
-## Website Screenshots
-
-
-
 ## 👩‍💻 Author
 
 Janani Mihiravi Arambegedara 

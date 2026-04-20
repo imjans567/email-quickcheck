@@ -11,10 +11,15 @@ It uses extracted PE file features and applies trained models to classify files.
 ## 🚀 Features
 
 * Upload CSV dataset
+* Manual input enabled
+* EXE file Analysis enabled
+* Multiple files uploadability
+* receive real-time results per each uploaded file
 * Detect malicious files
 * Confidence score for predictions
 * Clean UI using Streamlit
 * Feature validation to avoid mismatch errors
+* Enabled PDF geneeration
 
 ---
 
@@ -157,6 +162,8 @@ python -m streamlit run app_ui.py
 
 ```
 app_ui.py        # Streamlit UI
+new_app_ui.py    # Streamlit UI
+new_app_v1_ui.py # Streamlit UI
 model.pkl        # Trained model
 features.pkl     # Selected features
 requirements.txt # Dependencies
@@ -168,7 +175,7 @@ requirements.txt # Dependencies
 
 * Deploy as web application
 * Add explainability (SHAP)
-* Integrate FastAPI backend
+
 
 ---
 
